@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Repository.Data.DetalleFactura;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,6 @@ namespace Repository.Data.Factura
         public double Total_iva10 { get; set; }
         public double Total_iva { get; set; }
         public string Total_Letras { get; set; }
+        public List<DetalleFacturaModel> detalleFactura { get; set; }
     }
-}
 }
