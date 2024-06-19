@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Repository.Data.Sucursal
 {
-    internal interface ISucursalRepository
+    public interface ISucursalRepository
     {
         bool add(SucursalModel sucursalModel);
         bool update(SucursalModel sucursalModel);
